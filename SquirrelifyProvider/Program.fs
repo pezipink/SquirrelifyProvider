@@ -9,8 +9,6 @@ open Samples.FSharp.ProvidedTypes
 open Microsoft.FSharp.Core.CompilerServices
 open Microsoft.FSharp.Quotations
 
-open AsciiArt
-
 [<TypeProvider>]
 type Provider(config: TypeProviderConfig) as this = 
     inherit TypeProviderForNamespaces()
